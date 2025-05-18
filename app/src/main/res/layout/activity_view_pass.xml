@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Input field for Bus Pass Number -->
+        <EditText
+            android:id="@+id/busPassNumberInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter Pass Number"
+            android:inputType="text"
+            android:padding="8dp" />
+
+        <!-- Button to fetch details -->
+        <Button
+            android:id="@+id/fetchPassButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Pass Details"
+            android:padding="8dp" />
+
+        <!-- TextView to display the pass details -->
+        <TextView
+            android:id="@+id/passDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Pass Details will appear here"
+            android:padding="8dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

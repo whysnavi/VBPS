@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Existing Button for New Pass -->
+    <Button
+        android:id="@+id/newPassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Pass" />
+
+    <!-- Existing Button for Recharge Pass -->
+    <Button
+        android:id="@+id/rechargePassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Recharge Pass" />
+
+    <!-- Existing Button for View Pass -->
+    <Button
+        android:id="@+id/viewPassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="View Pass" />
+</LinearLayout>

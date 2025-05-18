@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/studentName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Student Name"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/fatherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Father Name"
+                    android:padding="8dp" />
+
+                <RadioGroup
+                    android:id="@+id/genderGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:text="Male"
+                            android:padding="8dp" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:text="Female"
+                            android:padding="8dp" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="DOB (dd/mm/yyyy)"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/whatsappNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="WhatsApp Number"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/institutionName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Institution Name"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/admissionNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Admission Number"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/aadharNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Aadhar Number"
+                    android:padding="8dp" />
+
+                <!-- New TextView for Bus Pass Number -->
+                <TextView
+                    android:id="@+id/busPassNumberTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Bus Pass Number will appear here"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp" />
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/paymentButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Payment"
+                    android:visibility="gone" />
+        </LinearLayout>
+</ScrollView>
